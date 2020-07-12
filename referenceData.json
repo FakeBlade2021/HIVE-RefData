@@ -113,6 +113,50 @@
     "category": [
       "user-base"
     ]
+  },
+  "changeNode": {
+    "alias": [
+    ],
+    "minRank": 0,
+    "description": "A change node is used to move, set, change, or delete values in messages.  These can be used to set messages for notifications as well as search and replace words, or moving a payload from one hierarchy to another.",
+    "category": [
+      "nodered"
+    ]
+  },
+  "delayNode": {
+    "alias": [
+    ],
+    "minRank": 0,
+    "description": "The delay node is exactly as the title suggests.  It delays a message for x amount of time.  Another feature of the delay node is rate limiting.  It can limit messages to a set amount of time and build a buffer or drop messages that exceed this limit.",
+    "category": [
+      "nodered"
+    ]
+  },
+  "switchNode": {
+    "alias": [
+    ],
+    "minRank": 0,
+    "description": "The switch node is used to filter or route messages based on their value.  Switch nodes can be essential for proper flow and automations.",
+    "category": [
+      "nodered"
+    ]
+  },
+  "functionNode": {
+    "alias": [
+    ],
+    "minRank": 0,
+    "description": "The function node is used for writing moderate/advanced functions using javascript.  These nodes can be your best friend or worst nightmare.",
+    "category": [
+      "nodered"
+    ]
+  },
+  "rbeNode": {
+    "alias": [
+    ],
+    "minRank": 0,
+    "description": "The RBE node is responsible for blocking values unless they have a change.  This node can also be used to block unless the value has changed x amount of percentage",
+    "category": [
+      "nodered"
+    ]
   }
-
 }
